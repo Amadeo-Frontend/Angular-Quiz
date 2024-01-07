@@ -1,55 +1,82 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
+  "title": "Qual personagem de Dragon Ball Z você seria?",
+  "questions": [
     {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+      "id": 1,
+      "question": "Qual técnica de luta você prefere?",
+      "options": [
+        { "id": 1, "name": "Kamehameha", "alias": "A" },
+        { "id": 2, "name": "Galick Ho", "alias": "B" },
+        { "id": 3, "name": "Final Flash", "alias": "C" },
+        { "id": 4, "name": "Destructo Disc", "alias": "D" },
+        { "id": 5, "name": "Special Beam Cannon", "alias": "E" }
       ]
     },
     {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+      "id": 2,
+      "question": "Qual é o seu objetivo principal?",
+      "options": [
+        { "id": 1, "name": "Proteger a Terra", "alias": "A" },
+        { "id": 2, "name": "Conquistar o universo", "alias": "B" },
+        { "id": 3, "name": "Superar meus limites", "alias": "C" },
+        { "id": 4, "name": "Vingança", "alias": "D" },
+        { "id": 5, "name": "Buscar conhecimento", "alias": "E" }
       ]
     },
     {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+      "id": 3,
+      "question": "Como você lida com seus inimigos?",
+      "options": [
+        { "id": 1, "name": "Compaixão", "alias": "A" },
+        { "id": 2, "name": "Poder total", "alias": "B" },
+        { "id": 3, "name": "Estratégia e técnica", "alias": "C" },
+        { "id": 4, "name": "Fúria", "alias": "D" },
+        { "id": 5, "name": "Evitá-los", "alias": "E" }
       ]
     },
     {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+      "id": 4,
+      "question": "Qual é o seu treinamento preferido?",
+      "options": [
+        { "id": 1, "name": "Gravidade aumentada", "alias": "A" },
+        { "id": 2, "name": "Sala do Tempo", "alias": "B" },
+        { "id": 3, "name": "Treino com mestre", "alias": "C" },
+        { "id": 4, "name": "Treino solitário", "alias": "D" },
+        { "id": 5, "name": "Estudar os adversários", "alias": "E" }
       ]
     },
     {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+      "id": 5,
+      "question": "Qual transformação você prefere?",
+      "options": [
+        { "id": 1, "name": "Super Saiyajin", "alias": "A" },
+        { "id": 2, "name": "Forma Final", "alias": "B" },
+        { "id": 3, "name": "Ultra Instinto", "alias": "C" },
+        { "id": 4, "name": "Oozaru", "alias": "D" },
+        { "id": 5, "name": "Nenhuma", "alias": "E" }
       ]
     }
   ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+  "results": {
+    "A": {
+      "description": "Você seria Goku! Sempre lutando para proteger os outros e melhorar a si mesmo.",
+      "image": "../../assets/imgs/goku.jpg"
+    },
+    "B": {
+      "description": "Você seria Vegeta! Orgulhoso, poderoso e sempre buscando ser o melhor.",
+      "image": "../../assets/imgs/vegeta.jpg"
+    },
+    "C": {
+      "description": "Você seria Gohan! Inteligente, estratégico e com um poder oculto impressionante.",
+      "image": "../../assets/imgs/gohan.jpg"
+    },
+    "D": {
+      "description": "Você seria Piccolo! Sábio, técnico e com um senso de honra forte.",
+      "image": "../../assets/imgs/piccolo.jpg"
+    },
+    "E": {
+      "description": "Você seria Bulma! Engenhosa, curiosa e fundamental no suporte aos guerreiros Z.",
+      "image": "../../assets/imgs/bulma.jpg"
+    }
   }
 }

@@ -1,1 +1,48 @@
-<div class="quiz__container"></div>
+<div class="container mx-auto p-4">
+  <!-- Exibe o quiz -->
+  <div *ngIf="!result">
+    <div *ngIf="quiz && quiz.questions.length > 0">
+      <div *ngIf="currentQuestionIndex < quiz.questions.length">
+        <div class="card">
+          <h3 class="text-lg font-semibold mb-3">
+            {{ quiz.questions[currentQuestionIndex].question }}
+          </h3>
+          <div class="flex flex-col space-y-2">
+            <button
+              *ngFor="
+                let option of quiz.questions[currentQuestionIndex].options
+              "
+              class="btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              (click)="
+                setAnswer(quiz.questions[currentQuestionIndex].id, option.alias)
+              "
+            >
+              {{ option.name }}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Exibe o resultado -->
+  <div class="text-center" *ngIf="result">
+    <h3 class="text-2xl font-semibold mb-3 text-gray-800">Resultado do Quiz</h3>
+    <img
+      [src]="result.image"
+      alt="Imagem do resultado"
+      class="mx-auto w-1/2 rounded-lg shadow-xl"
+    />
+    <p class="text-green-600 mt-4 text-lg font-medium">
+      {{ result.description }}
+    </p>
+
+    <!-- Botão para resetar o quiz -->
+    <button
+      class="mt-4 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+      (click)="resetQuiz()"
+    >
+      Resetar Quiz
+    </button>
+  </div>
+</div>
