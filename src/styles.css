@@ -12,9 +12,7 @@
 
 body {
   font-family: 'Nunito', sans-serif;
-  background-image: url('./assets/imgs/bg.jpg');
-  background-size: cover;
-  background-position: center;
+  background: #000 url('./assets/imgs/bg.jpg') center/cover no-repeat;
   transition: all 0.7s ease;
 }
 
