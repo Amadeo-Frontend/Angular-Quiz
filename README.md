@@ -17,6 +17,7 @@ Este projeto é um quiz interativo baseado no universo de Dragon Ball, desenvolv
 - Exibição de resultado com base nas respostas
 - Imagem e descrição personalizadas para cada resultado
 - Design responsivo e estilizado com Tailwind CSS
+- Animações suaves
 
 ## Live
 
