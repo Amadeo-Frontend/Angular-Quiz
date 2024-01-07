@@ -12,5 +12,18 @@
 
 body {
   font-family: 'Nunito', sans-serif;
-  background-color: #1F1147;
+  background-image: url('./assets/imgs/bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
 }

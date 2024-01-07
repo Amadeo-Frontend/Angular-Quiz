@@ -60,23 +60,23 @@
   "results": {
     "A": {
       "description": "Você seria Goku! Sempre lutando para proteger os outros e melhorar a si mesmo.",
-      "image": "../../assets/imgs/goku.jpg"
+      "image": "../../assets/imgs/goku.gif"
     },
     "B": {
       "description": "Você seria Vegeta! Orgulhoso, poderoso e sempre buscando ser o melhor.",
-      "image": "../../assets/imgs/vegeta.jpg"
+      "image": "../../assets/imgs/vejeta.gif"
     },
     "C": {
       "description": "Você seria Gohan! Inteligente, estratégico e com um poder oculto impressionante.",
-      "image": "../../assets/imgs/gohan.jpg"
+      "image": "../../assets/imgs/gohan.gif"
     },
     "D": {
       "description": "Você seria Piccolo! Sábio, técnico e com um senso de honra forte.",
-      "image": "../../assets/imgs/piccolo.jpg"
+      "image": "../../assets/imgs/piccolo.gif"
     },
     "E": {
       "description": "Você seria Bulma! Engenhosa, curiosa e fundamental no suporte aos guerreiros Z.",
-      "image": "../../assets/imgs/bulma.jpg"
+      "image": "../../assets/imgs/bulma.gif"
     }
   }
 }
