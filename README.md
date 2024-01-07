@@ -1,27 +1,47 @@
-# BuzzfeedProject
+# Quiz Dragon Ball
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Este projeto é um quiz interativo baseado no universo de Dragon Ball, desenvolvido como parte do Bootcamp de Desenvolvimento Frontend com Angular promovido pelo Banco Pan. O objetivo deste projeto é criar uma aplicação web divertida e envolvente que teste os conhecimentos dos fãs sobre a série.
 
-## Development server
+## Tecnologias Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular
+- TypeScript
+- HTML
+- CSS
+- Tailwind CSS
 
-## Code scaffolding
+## Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Perguntas variadas sobre o universo de Dragon Ball
+- Opções de resposta em botões interativos
+- Exibição de resultado com base nas respostas
+- Imagem e descrição personalizadas para cada resultado
+- Design responsivo e estilizado com Tailwind CSS
 
-## Build
+## Experiência com o Bootcamp
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Participar deste Bootcamp foi uma experiência enriquecedora. A oportunidade de aprender e aplicar conceitos avançados de Angular em um projeto prático como este ajudou a solidificar meu conhecimento na tecnologia. A parte mais empolgante foi poder unir minha paixão por Dragon Ball com o desenvolvimento web, criando algo que é tanto funcional quanto divertido.
 
-## Running unit tests
+## Como Executar
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para executar o projeto localmente, siga estas etapas:
 
-## Running end-to-end tests
+1. Clone o repositório:
+git clone [URL do repositório]
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Navegue até a pasta do projeto e instale as dependências:
+cd quiz-dragonball
+npm install
 
-## Further help
+1. Inicie o servidor de desenvolvimento:
+ng serve
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Abra o navegador e acesse `http://localhost:4200`.
+
+## Contribuições
+
+Contribuições, sugestões e feedbacks são sempre bem-vindos.
+
+---
+
+Desenvolvido por Amadeo Bon 😁
