@@ -5,7 +5,7 @@
       src="../../../assets/imgs/logo.png"
       alt="logo"
     />
-    <h5 class="my-4">Qual personagem do Dragon Ball você seria?</h5>
+    <h4 class="my-4 text-xl">Qual personagem do Dragon Ball você seria?</h4>
   </header>
   <!-- Exibe o quiz -->
   <div *ngIf="!result">
@@ -13,7 +13,7 @@
       <div *ngIf="currentQuestionIndex < quiz.questions.length">
         <div class="card my-5">
           <h3
-            class="bg-cyan-300 shadow-md shadow-orange-600 p-3 text-center rounded-md text-lg text-slate-700 font-semibold mb-3"
+            class="bg-cyan-300 shadow-md shadow-orange-600 p-5 text-center rounded-md text-lg text-slate-700 font-semibold mb-3"
           >
             {{ quiz.questions[currentQuestionIndex].question }}
           </h3>
@@ -37,11 +37,15 @@
 
   <!-- Exibe o resultado -->
   <div class="text-center" *ngIf="result">
-    <h3 class="text-2xl font-semibold mb-3 text-gray-800">Resultado do Quiz</h3>
+    <h3 class="text-2xl text-white/90 font-semibold mb-3 text-gray-800">
+      Resultado do Quiz
+    </h3>
     <img
-      [src]="result.image"
+      [defaultImage]="'path_to_your_default_image_placeholder'"
+      [errorImage]="'path_to_your_error_image'"
+      [lazyLoad]="result.image"
       alt="Imagem do resultado"
-      class="mx-auto object-cover rounded-lg shadow-xl w-[300px] h-[300px]"
+      class="mx-auto object-cover rounded-lg shadow-md shadow-cyan-300 w-[300px] h-[300px]"
     />
 
     <p class="text-green-600 mt-4 text-lg font-medium">
@@ -50,7 +54,7 @@
 
     <!-- Botão para resetar o quiz -->
     <button
-      class="mt-4 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+      class="mt-4 btn bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded hover:scale-[1.02] transition-all ease-in focus:outline-none focus:shadow-outline"
       (click)="resetQuiz()"
     >
       Resetar

@@ -9,7 +9,7 @@
         { "id": 2, "name": "Galick Ho", "alias": "B" },
         { "id": 3, "name": "Final Flash", "alias": "C" },
         { "id": 4, "name": "Destructo Disc", "alias": "D" },
-        { "id": 5, "name": "Special Beam Cannon", "alias": "E" }
+        { "id": 5, "name": "Death Beam", "alias": "E" }
       ]
     },
     {
@@ -20,7 +20,7 @@
         { "id": 2, "name": "Conquistar o universo", "alias": "B" },
         { "id": 3, "name": "Superar meus limites", "alias": "C" },
         { "id": 4, "name": "Vingança", "alias": "D" },
-        { "id": 5, "name": "Buscar conhecimento", "alias": "E" }
+        { "id": 5, "name": "Dominar e destruir", "alias": "E" }
       ]
     },
     {
@@ -28,32 +28,32 @@
       "question": "Como você lida com seus inimigos?",
       "options": [
         { "id": 1, "name": "Compaixão", "alias": "A" },
-        { "id": 2, "name": "Poder total", "alias": "B" },
-        { "id": 3, "name": "Estratégia e técnica", "alias": "C" },
         { "id": 4, "name": "Fúria", "alias": "D" },
-        { "id": 5, "name": "Evitá-los", "alias": "E" }
+        { "id": 3, "name": "Estratégia e técnica", "alias": "C" },
+        { "id": 5, "name": "Crueldade e desprezo", "alias": "E" },
+        { "id": 2, "name": "Poder total", "alias": "B" }
       ]
     },
     {
       "id": 4,
       "question": "Qual é o seu treinamento preferido?",
       "options": [
-        { "id": 1, "name": "Gravidade aumentada", "alias": "A" },
-        { "id": 2, "name": "Sala do Tempo", "alias": "B" },
         { "id": 3, "name": "Treino com mestre", "alias": "C" },
+        { "id": 2, "name": "Sala do Tempo", "alias": "B" },
+        { "id": 1, "name": "Gravidade aumentada", "alias": "A" },
         { "id": 4, "name": "Treino solitário", "alias": "D" },
-        { "id": 5, "name": "Estudar os adversários", "alias": "E" }
+        { "id": 5, "name": "Treinamento em naves espaciais", "alias": "E" }
       ]
     },
     {
       "id": 5,
       "question": "Qual transformação você prefere?",
       "options": [
-        { "id": 1, "name": "Super Saiyajin", "alias": "A" },
         { "id": 2, "name": "Forma Final", "alias": "B" },
-        { "id": 3, "name": "Ultra Instinto", "alias": "C" },
+        { "id": 1, "name": "Super Saiyajin", "alias": "A" },
         { "id": 4, "name": "Oozaru", "alias": "D" },
-        { "id": 5, "name": "Nenhuma", "alias": "E" }
+        { "id": 3, "name": "Ultra Instinto", "alias": "C" },
+        { "id": 5, "name": "Golden Freeza", "alias": "E" }
       ]
     }
   ],
@@ -75,8 +75,8 @@
       "image": "../../assets/imgs/piccolo.gif"
     },
     "E": {
-      "description": "Você seria Bulma! Engenhosa, curiosa e fundamental no suporte aos guerreiros Z.",
-      "image": "../../assets/imgs/bulma.gif"
+      "description": "Você seria Freeza! Cruel, ambicioso e um mestre em destruição e dominação.",
+      "image": "../../assets/imgs/freeza.gif"
     }
   }
 }
