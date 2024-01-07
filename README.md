@@ -40,8 +40,14 @@ ng serve
 
 ## Contribuições
 
-Contribuições, sugestões e feedbacks são sempre bem-vindos.
+Contribuições são sempre bem-vindas! Para contribuir, por favor:
+
+1. Faça um fork do projeto.
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`).
+3. Faça commit de suas mudanças (`git commit -m 'Add some AmazingFeature'`).
+4. Faça push para a branch (`git push origin feature/AmazingFeature`).
+5. Abra um Pull Request.
 
 ---
 
-Desenvolvido por Amadeo Bon 😁
+Feito com ♥ e Angular.
