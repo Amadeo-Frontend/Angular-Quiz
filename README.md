@@ -18,6 +18,10 @@ Este projeto é um quiz interativo baseado no universo de Dragon Ball, desenvolv
 - Imagem e descrição personalizadas para cada resultado
 - Design responsivo e estilizado com Tailwind CSS
 
+## Live
+
+https://angular-quiz-six.vercel.app/
+
 ## Experiência com o Bootcamp
 
 Participar deste Bootcamp foi uma experiência enriquecedora. A oportunidade de aprender e aplicar conceitos avançados de Angular em um projeto prático como este ajudou a solidificar meu conhecimento na tecnologia. A parte mais empolgante foi poder unir minha paixão por Dragon Ball com o desenvolvimento web, criando algo que é tanto funcional quanto divertido.
@@ -40,8 +44,14 @@ ng serve
 
 ## Contribuições
 
-Contribuições, sugestões e feedbacks são sempre bem-vindos.
+Contribuições são sempre bem-vindas! Para contribuir, por favor:
+
+1. Faça um fork do projeto.
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`).
+3. Faça commit de suas mudanças (`git commit -m 'Add some AmazingFeature'`).
+4. Faça push para a branch (`git push origin feature/AmazingFeature`).
+5. Abra um Pull Request.
 
 ---
 
-Desenvolvido por Amadeo Bon 😁
+Feito com ♥ e Angular.
