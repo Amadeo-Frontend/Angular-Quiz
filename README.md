@@ -17,6 +17,7 @@ Este projeto é um quiz interativo baseado no universo de Dragon Ball, desenvolv
 - Exibição de resultado com base nas respostas
 - Imagem e descrição personalizadas para cada resultado
 - Design responsivo e estilizado com Tailwind CSS
+- Animações suaves
 
 ## Live
 
@@ -25,6 +26,13 @@ https://angular-quiz-six.vercel.app/
 ## Experiência com o Bootcamp
 
 Participar deste Bootcamp foi uma experiência enriquecedora. A oportunidade de aprender e aplicar conceitos avançados de Angular em um projeto prático como este ajudou a solidificar meu conhecimento na tecnologia. A parte mais empolgante foi poder unir minha paixão por Dragon Ball com o desenvolvimento web, criando algo que é tanto funcional quanto divertido.
+
+## Demo
+
+
+
+https://github.com/Amadeo-Frontend/Angular-Quiz/assets/104178969/4d88892b-53d2-4bc2-902f-68ca4cb9c327
+
 
 ## Como Executar
 
